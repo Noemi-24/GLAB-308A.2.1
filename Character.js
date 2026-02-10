@@ -4,6 +4,7 @@ class Character{
     constructor(name){
         this.name = name;       
         this.inventory = [];
+        this.health = Character.MAX_HEALTH;
     }
 
     roll(mod = 0){

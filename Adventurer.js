@@ -1,5 +1,6 @@
 class Adventurer extends Character {
     static  ROLES = ["fighter", "Healer", "Wizard"];
+    
     constructor (name, role) {
         super(name);
         // Every adventurer starts with a bed and 50 gold coins.
