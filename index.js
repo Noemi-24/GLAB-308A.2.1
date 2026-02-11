@@ -24,7 +24,7 @@ robin.companion.companion = new Character("Frank");
 robin.companion.companion.type = "Flea";
 robin.companion.companion.inventory = ["small hat", "sunglasses"];
 
-// ====== Part 3: Class Features & Part 4: Class Uniforms =====
+// ====== Part 3: Class Features & Part 4: Class Uniforms  & Part 6: Developing Skills =====
 //Adventurer Class
 class Adventurer extends Character {
     static  ROLES = ["Fighter", "Healer", "Wizard", "Archer", "Warrior"];
@@ -32,7 +32,7 @@ class Adventurer extends Character {
     constructor (name, role) {
         super(name);
         
-        if (!Adventurer.ROLES.includes(role)) { //Check this seccion for validation
+        if (!Adventurer.ROLES.includes(role)) { 
             throw new Error(`Invalid rol: ${role}. Instance role must match: ${Adventurer.ROLES.join(', ')}`);            
         }
         this.role = role;
@@ -84,4 +84,4 @@ const healers = new AdventurerFactory("Healer");
 const robin1 = healers.generate("Robin");
 
 
-//console.log(healers);
+// ====== Part 7: Adventure Forth =====
