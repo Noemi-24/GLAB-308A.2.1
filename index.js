@@ -126,7 +126,7 @@ const robin1 = healers.generate("Robin");
 
 // ====== Part 7: Adventure Forth =====
 
-const fighter = new Adventurer("Luis", "Fighter");
-const wizard = new Adventurer("Ana", "Wizard");
+const fighter = new Adventurer("Adam", "Fighter");
+const wizard = new Adventurer("Eve", "Wizard");
 
 fighter.duel(wizard);
