@@ -48,7 +48,7 @@ class Adventurer extends Character {
 
     duel(opponent) {
 
-        console.log(`⚔️ Duel between ${this.name} and ${opponent.name}`);
+        console.log(`⚔️ Duel between ${this.name} and ${opponent.name} ⚔️ `);
         console.log("================================");
 
         while (this.health > 50 && opponent.health > 50) {
