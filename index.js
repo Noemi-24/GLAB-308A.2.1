@@ -84,4 +84,56 @@ const healers = new AdventurerFactory("Healer");
 const robin1 = healers.generate("Robin");
 
 
+
+
+duel(opponent) {
+
+    console.log(`⚔️ Duelo entre ${this.name} y ${opponent.name}`);
+    console.log("================================");
+
+    while (this.health > 50 && opponent.health > 50) {
+
+        const myRoll = this.roll();
+        const opponentRoll = opponent.roll();
+
+        console.log(`${this.name} sacó: ${myRoll}`);
+        console.log(`${opponent.name} sacó: ${opponentRoll}`);
+
+        if (myRoll < opponentRoll) {
+
+            this.health -= 1;
+            console.log(`${this.name} pierde 1 de salud`);
+
+        } else if (opponentRoll < myRoll) {
+
+            opponent.health -= 1;
+            console.log(`${opponent.name} pierde 1 de salud`);
+
+        } else {
+
+            console.log("🤝 Empate, nadie pierde salud");
+        }
+
+        console.log("❤️ Salud actual:");
+        console.log(`${this.name}: ${this.health}`);
+        console.log(`${opponent.name}: ${opponent.health}`);
+        console.log("--------------------------------");
+    }
+
+    // Mostrar ganador
+    if (this.health > opponent.health) {
+
+        console.log(`🏆 Ganador: ${this.name}`);
+
+    } else {
+
+        console.log(`🏆 Ganador: ${opponent.name}`);
+    }
+}
+
 // ====== Part 7: Adventure Forth =====
+
+const fighter = new Adventurer("Luis", "Fighter");
+const wizard = new Adventurer("Ana", "Wizard");
+
+fighter.duel(wizard);
