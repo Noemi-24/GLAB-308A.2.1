@@ -95,7 +95,8 @@ node adventure.js
 ---
 
 ### 2. 🧪 Example Usage
-```
+
+```js
 const fighter = new Adventurer("Luis", "Fighter");
 const wizard = new Adventurer("Ana", "Wizard");
 
@@ -103,7 +104,7 @@ fighter.duel(wizard);
 ```
 ---
 
-##📚 Learning Outcomes
+## 📚 Learning Outcomes
 
 Through this project, I learned how to:
 - Apply object-oriented design in JavaScript
@@ -115,10 +116,11 @@ Through this project, I learned how to:
   
 ---
 
-##👩‍💻 Author
+## 👩‍💻 Author
 
 Noemi Delgadillo Roldan
 LinkedIn: https://www.linkedin.com/in/noemidelgadilloroldan
 GitHub: Add your GitHub profile link here
+
 
 
