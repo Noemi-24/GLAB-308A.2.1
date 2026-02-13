@@ -90,11 +90,15 @@ git clone <your-github-repo-link>
 cd object-oriented-adventure
 node adventure.js
 ```
+---
+
 ## 🧪 Example Usage
+```
 const fighter = new Adventurer("Luis", "Fighter");
 const wizard = new Adventurer("Ana", "Wizard");
 
 fighter.duel(wizard);
+```
 ---
 
 ##📚 Learning Outcomes
@@ -113,3 +117,4 @@ Through this project, I learned how to:
 Noemi Delgadillo Roldan
 LinkedIn: https://www.linkedin.com/in/noemidelgadilloroldan
 GitHub: Add your GitHub profile link here
+
