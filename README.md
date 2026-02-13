@@ -33,11 +33,13 @@ This project practices:
 ---
 
 ## 📁 Project Structure
+
+```md
 /object-oriented-adventure
 │
 ├── index.js
 └── README.md
-
+```
 > Note: The main logic is contained in `index.js`.
 
 ---
@@ -92,7 +94,7 @@ node adventure.js
 ```
 ---
 
-## 🧪 Example Usage
+### 2. 🧪 Example Usage
 ```
 const fighter = new Adventurer("Luis", "Fighter");
 const wizard = new Adventurer("Ana", "Wizard");
@@ -110,6 +112,7 @@ Through this project, I learned how to:
 - Validate data using static properties
 - Implement basic game mechanics
 - Organize code using factories
+  
 ---
 
 ##👩‍💻 Author
@@ -117,4 +120,5 @@ Through this project, I learned how to:
 Noemi Delgadillo Roldan
 LinkedIn: https://www.linkedin.com/in/noemidelgadilloroldan
 GitHub: Add your GitHub profile link here
+
 
